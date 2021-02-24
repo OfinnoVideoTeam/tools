@@ -4,7 +4,8 @@
 # 2. install aws commandline package
 # You need to know ACCESS_KEY_ID and SECRET_ACCESS_KEY of your aws account (please ask Dan)
 # And replace "input your aws_access_key_id" and "input your aws_secret_access_key" with yours.
-# 
+# you can find available s3 buckets using the following command
+# aws s3 ls
 
 sudo apt upgrade
 sudo apt update
