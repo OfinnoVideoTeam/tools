@@ -4,6 +4,6 @@ sudo yum install automake fuse fuse-devel gcc-c++ git libcurl-devel libxml2-deve
 
 cd  s3fs-fuse
 ./autogen.sh
-./configure — prefix=/usr — with-openssl
+./configure -prefix=/usr -with-openssl
 make
 sudo make install
