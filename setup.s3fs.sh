@@ -1,6 +1,6 @@
 # install s3fs on amazon linux
-sudo yum update
-sudo yum install automake fuse fuse-devel gcc-c++ git libcurl-devel libxml2-devel make openssl-devel
+sudo yum -y update
+sudo yum -y install automake fuse fuse-devel gcc-c++ git libcurl-devel libxml2-devel make openssl-devel
 git clone https://github.com/s3fs-fuse/s3fs-fuse.git
 
 cd  s3fs-fuse
