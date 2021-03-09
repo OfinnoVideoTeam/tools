@@ -24,7 +24,7 @@ echo "[default]\naws_access_key_id=${ACCESS_KEY_ID}\naws_secret_access_key=${SEC
 #aws s3 ls 
 
 echo ${ACCESS_KEY_ID}:${SECRET_ACCESS_KEY} > ${HOME}/.passwd-s3fs
-chmod 600 .passwd-s3fs
+chmod 600 ${HOME}/.passwd-s3fs
 
 mkdir folder_name # you can change folder_name to any name
 
